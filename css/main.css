@@ -8,6 +8,10 @@ html {
   .contenedor {
     overflow: hidden;
   }
+
+  h1,h2{
+    text-align: center;
+  }
   .col {
     margin: 0px;
     padding: 0px;
@@ -37,6 +41,14 @@ html {
   .col-izquierda a{
     color: lavender;
   }
+
+  .col-izquierda a:link{
+  text-decoration:none;
+} 
+
+.col-izquierda a:hover{
+  font-weight: bold;
+}
 
   .col-derecha {
     float: right;
